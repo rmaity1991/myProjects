@@ -20,8 +20,9 @@ cursor.execute(
     
     """
 )
-
+/
 row = cursor.fetchone() 
+#row = cursor.fetchall()
 
 print(row)
 
@@ -29,7 +30,8 @@ while(row):
     print(row[0])
     print(row[1])
     print(row[2])
-    print(row[3])
+    #print(row[3])
+    #break
 
     row=cursor.fetchone()
 

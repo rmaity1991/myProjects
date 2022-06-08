@@ -1,1 +1,6 @@
-print("Hi Guys, Welcome to the Python Projects Folder");
+
+class Circle:
+
+
+    def __init__(self):
+        
