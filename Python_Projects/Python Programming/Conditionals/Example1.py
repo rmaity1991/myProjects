@@ -1,4 +1,4 @@
-#!/usr/bin/python
+
 
 var1 = 100
 if var1:
@@ -11,7 +11,7 @@ if var2:
    print (var2)
 print ("Good bye!")
 
-#!/usr/bin/python
+
 
 var1 = 100
 if var1:
@@ -31,7 +31,6 @@ else:
 
 print ("Good bye!")
 
-#!/usr/bin/python
 
 var = 100
 if var == 200:
@@ -49,7 +48,7 @@ else:
 
 print ("Good bye!")
 
-#!/usr/bin/python
+
 
 var = 100
 if var < 200:

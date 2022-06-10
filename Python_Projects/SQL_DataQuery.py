@@ -20,7 +20,7 @@ cursor.execute(
     
     """
 )
-/
+
 row = cursor.fetchone() 
 #row = cursor.fetchall()
 

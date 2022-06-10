@@ -1,4 +1,4 @@
-#!/usr/bin/python
+
 
 for letter in 'Python':     # First Example
    print ('Current Letter :', letter)
@@ -9,7 +9,7 @@ for fruit in fruits:        # Second Example
 
 print ("Good bye!")
 
-#!/usr/bin/python
+
 
 fruits = ['banana', 'apple',  'mango']
 for index in range(len(fruits)):
@@ -17,7 +17,7 @@ for index in range(len(fruits)):
 
 print ("Good bye!")
 
-#!/usr/bin/python
+
 
 for num in range(10,20):     #to iterate between 10 to 20
    for i in range(2,num):    #to iterate on the factors of the number

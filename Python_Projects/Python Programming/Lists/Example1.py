@@ -19,7 +19,7 @@ list3 = ["a", "b", "c", "d"];
 #To access values in lists, use the square brackets for slicing along with the index or indices to obtain value available at that 
 #index.
 
-#!/usr/bin/python3
+
 
 list1 = ['physics', 'chemistry', 1997, 2000]
 list2 = [1, 2, 3, 4, 5, 6, 7 ]
@@ -30,7 +30,7 @@ print ("list2[1:5]: ", list2[1:5])
 #Updating Lists
 #You can update single or multiple elements of lists by giving the slice on the left-hand side of the assignment operator, and you can 
 #add to elements in a list with the append() method.
-#!/usr/bin/python3
+
 
 list = ['physics', 'chemistry', 1997, 2000]
 print ("Value available at index 2 : ", list[2])
@@ -41,7 +41,7 @@ print ("New value available at index 2 : ", list[2])
 #Delete List Elements
 #To remove a list element, you can use either the del statement if you know exactly which element(s) you are deleting. You can use the 
 #remove() method if you do not know exactly which items to delete.
-#!/usr/bin/python3
+
 
 list = ['physics', 'chemistry', 1997, 2000]
 print (list)
@@ -74,7 +74,7 @@ list1 = ['physics', 'chemistry', 'maths']
 print ('Index of chemistry', list1.index('chemistry'))
 print ('Index of C#', list1.index('C#'))
 
-#!/usr/bin/python3
+
 
 list1 = ['physics', 'chemistry', 'maths']
 list1.insert(1, 'Biology')

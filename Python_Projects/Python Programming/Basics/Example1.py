@@ -3,7 +3,6 @@ from ctypes import sizeof
 
 print ("Hello, Python!");
 
-#!/usr/bin/python
 #Assigning Values to Variables
 #Python variables do not need explicit declaration to reserve memory space. 
 #The declaration happens automatically when you assign a value to a variable. 
@@ -102,7 +101,7 @@ print (list + tinylist) # Prints concatenated lists
 #The main differences between lists and tuples are: Lists are enclosed in brackets ( [ ] ) and their elements and size can be 
 #changed, while tuples are enclosed in parentheses ( ( ) ) and cannot be updated. Tuples can be thought of as read-only lists.
 
-#!/usr/bin/python
+
 
 tuple = ( 'abcd', 786 , 2.23, 'john', 70.2  )
 tinytuple = (123, 'john')
@@ -113,7 +112,7 @@ print (tuple[1:3]  )        # Prints elements of the tuple starting from 2nd til
 print (tuple[2:]   )        # Prints elements of the tuple starting from 3rd element
 print (tinytuple * 2  )     # Prints the contents of the tuple twice
 print (tuple + tinytuple)   # Prints concatenated tuples
-#!/usr/bin/python
+
 
 tuple = ( 'abcd', 786 , 2.23, 'john', 70.2  )
 list = [ 'abcd', 786 , 2.23, 'john', 70.2  ]
@@ -127,7 +126,7 @@ list[2] = 1000     # Valid syntax with list
 
 #Dictionaries are enclosed by curly braces ({ }) and values can be assigned and accessed using square braces ([]).
 
-#!/usr/bin/python
+
 
 dict = {}
 dict['one'] = "This is one"

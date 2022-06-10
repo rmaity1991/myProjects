@@ -5,7 +5,7 @@
 #The child class inherits the attributes of its parent class, and you can use those attributes as if they were defined in 
 # the child class. A child class can also override data members and methods from the parent.
 
-#!/usr/bin/python3
+
 
 class Parent:        # define parent class
    parentAttr = 100
@@ -38,7 +38,6 @@ c.getAttr()          # again call parent's method
 #You can always override your parent class methods. One reason for overriding parent's methods is that you may want special or 
 #different functionality in your subclass.
 
-#!/usr/bin/python3
 
 class Parent:        # define parent class
    def myMethod(self):

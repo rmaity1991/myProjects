@@ -1,4 +1,4 @@
-#!/usr/bin/python
+
 
 count = 0
 while (count < 9):
@@ -7,7 +7,7 @@ while (count < 9):
 
 print ("Good bye!")
 
-#!/usr/bin/python
+
 
 var = 1
 while (var == 1) :  # This constructs an infinite loop
@@ -16,7 +16,7 @@ while (var == 1) :  # This constructs an infinite loop
 
 print ("Good bye!")
 
-#!/usr/bin/python
+
 
 count = 0
 while (count < 5):

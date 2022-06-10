@@ -9,7 +9,7 @@
 #Membership Operators
 #Identity Operators
 
-#!/usr/bin/python
+
 
 a = 21
 b = 10
@@ -40,7 +40,6 @@ b = 5
 c = a//b 
 print ("Line 7 - Value of c is ", c)
 
-#!/usr/bin/python
 
 a = 21
 b = 10
@@ -83,7 +82,6 @@ if ( b >= a ):
 else:
    print ("Line 7 - b is neither greater than  nor equal to b")
 
-#!/usr/bin/python
 
 a = 21
 b = 10
@@ -111,7 +109,6 @@ print ("Line 6 - Value of c is ", c)
 c //= a
 print ("Line 7 - Value of c is ", c)
 
-#!/usr/bin/python
 
 a = 60            # 60 = 0011 1100 
 b = 13            # 13 = 0000 1101 
@@ -135,7 +132,7 @@ print ("Line 5 - Value of c is ", c)
 c = a >> 2;       # 15 = 0000 1111
 print ("Line 6 - Value of c is ", c)
 
-#!/usr/bin/python
+
 
 a = 10
 b = 20
@@ -157,7 +154,7 @@ if ( a in list ):
 else:
    print ("Line 3 - a is not available in the given list")
 
-#!/usr/bin/python
+
 
 a = 20
 b = 10

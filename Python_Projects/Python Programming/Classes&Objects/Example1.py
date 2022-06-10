@@ -85,7 +85,7 @@ del a       # Decrease ref. count  of <40>
 b = 100     # Decrease ref. count  of <40> 
 c[0] = -1   # Decrease ref. count  of <40> 
 
-#!/usr/bin/python3
+
 
 class Point:
    def __init__( self, x=0, y=0):
