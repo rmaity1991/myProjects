@@ -17,15 +17,17 @@ It is achieved by method overriding which is also known as dynamic binding or la
 using namespace std;    
 class Animal {    
     public:    
-void eat(){      
-cout<<"Eating...";      
+void eat(){   
+
+            cout<<"Eating...";      
     }        
 };     
 class Dog: public Animal      
 {      
  public:    
  void eat()      
-    {           cout<<"Eating bread...";      
+    {  
+                 cout<<"Eating bread...";      
     }      
 };    
 int main(void) {    

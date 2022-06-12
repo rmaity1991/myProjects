@@ -32,6 +32,15 @@ class Call {
 class Test4 {
     public static void main(String args[]) {
         Printable p = new B();
+
+        Printable test = new Printable() {
+            @Override
+            public void c() {
+
+                System.out.println("Anonymous method");
+
+            }
+        };
         Call c = new Call();
         c.invoke(p);
     }
