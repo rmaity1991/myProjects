@@ -1,1 +1,3 @@
-from pyModbusTCP.client import ModbusClient
+import smtplib
+
+connection=smtplib.SMTP('smtp.gmai')
