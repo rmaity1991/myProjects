@@ -13,8 +13,3 @@ class Circle:
 
 
 
-test=Circle()
-
-result=test.area()
-
-print(result)
