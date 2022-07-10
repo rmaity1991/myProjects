@@ -2,7 +2,7 @@ from azure.iot.device import Message
 from azure.iot.device.aio import IoTHubDeviceClient
 import numpy as np
 
-connection_string='HostName=dfr-rht-iothub.azure-devices.net;DeviceId=PTS-case1-evapTemperature;SharedAccessKey=3Sk1tDNxWN/90bFLfFi/HViW2UN1qYho8zkUU2FI/1A='
+connection_string='HostName=rht-dfr-iothub.azure-devices.net;DeviceId=rht-dfr-device1;SharedAccessKey=3J1wrHffOoB60MxXP9EpqQ+37MeaRL5pCH2y1rOqfz4='
 
 PAYLOAD = '{{"temperature": {temperature}}}'
 

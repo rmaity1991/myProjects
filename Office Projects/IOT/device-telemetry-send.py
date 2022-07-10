@@ -1,9 +1,3 @@
-# -------------------------------------------------------------------------
-# Copyright (c) Microsoft Corporation. All rights reserved.
-# Licensed under the MIT License. See License.txt in the project root for
-# license information.
-# --------------------------------------------------------------------------
-
 import os
 import asyncio
 import uuid
@@ -15,7 +9,7 @@ messages_to_send = 10
 
 async def main():
     # The connection string for a device should never be stored in code. For the sake of simplicity we're using an environment variable here.
-    conn_str = "HostName=dfr-rht-iothub.azure-devices.net;DeviceId=Device1;SharedAccessKey=xf/ujWySTnRi+EQep0xBfN5qsRj6aaub3LZwrILhuqU="
+    conn_str = 'HostName=rht-dfr-iothub.azure-devices.net;DeviceId=dfr-rht-device1;SharedAccessKey=CqPY8HaqoxyZJsmuPrEWzHguQJQOanEBhMCWIvhjji0='
 
     # The client object is used to interact with your Azure IoT hub.
     device_client = IoTHubDeviceClient.create_from_connection_string(conn_str)
@@ -35,7 +29,7 @@ async def main():
         print("done sending message #" + str(i))
 
     # send `messages_to_send` messages in parallel
-    await asyncio.gather(*[send_test_message(i) for i in range(1, messages_to_send + 1)])
+    await asyncio.gather(*[send_test_message(i) for i in range(10, messages_to_send + 20)])
 
     # Finally, shut down the client
     await device_client.shutdown()
@@ -43,8 +37,3 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
-
-    # If using Python 3.6 use the following code instead of asyncio.run(main()):
-    # loop = asyncio.get_event_loop()
-    # loop.run_until_complete(main())
-    # loop.close()
